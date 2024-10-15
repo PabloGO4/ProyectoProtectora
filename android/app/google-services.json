@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "9980413148",
+    "project_id": "protectora-555d4",
+    "storage_bucket": "protectora-555d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9980413148:android:955cbec55f4f35921a6019",
+        "android_client_info": {
+          "package_name": "com.example.protectora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQrDhQOdhDOQh87Cxo6gEpgBef9O66mFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

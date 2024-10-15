@@ -1,4 +1,4 @@
-package com.dnnnt.protectora
+package com.example.protectora
 
 import io.flutter.embedding.android.FlutterActivity
 
