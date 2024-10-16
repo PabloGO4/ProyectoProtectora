@@ -10,12 +10,12 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          buildAlternatingMenuItem(context, "Adoptar animales", 'assets/adoptar_animales.jpg', 0),
-          buildAlternatingMenuItem(context, "Animales perdidos", 'assets/animales_perdidos.jpg', 1),
-          buildAlternatingMenuItem(context, "Nuestros servicios", 'assets/nuestros_servicios.jpg', 2),
-          buildAlternatingMenuItem(context, "Contacto", 'assets/contacto.jpg', 3),
-          buildAlternatingMenuItem(context, "Veterinarios cercanos", 'assets/veterinarios.jpg', 4),
-          buildAlternatingMenuItem(context, "Donaciones", 'assets/donaciones.jpg', 5),
+          buildAlternatingMenuItem(context, "Adoptar animales", 'assets/images/adoptar_animales.jpg', 0),
+          buildAlternatingMenuItem(context, "Animales perdidos", 'assets/images/animales_perdidos.jpg', 1),
+          buildAlternatingMenuItem(context, "Nuestros servicios", 'assets/images/nuestros_servicios.jpg', 2),
+          buildAlternatingMenuItem(context, "Contacto", 'assets/images/contacto.jpg', 3),
+          buildAlternatingMenuItem(context, "Veterinarios cercanos", 'assets/images/veterinarios_cercanos.jpg', 4),
+          buildAlternatingMenuItem(context, "Donaciones", 'assets/images/donaciones.jpg', 5),
         ],
       ),
     );
