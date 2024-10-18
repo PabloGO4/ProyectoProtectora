@@ -84,22 +84,15 @@ Widget buildDrawer(BuildContext context) {
           },
         ),
         ListTile(
+          leading: Icon(Icons.favorite),
+          title: Text('Colabora'),
+          onTap: () {
+            // Acción al pulsar esta opción
+          },
+        ),
+        ListTile(
           leading: Icon(Icons.phone),
           title: Text('Contacto'),
-          onTap: () {
-            // Acción al pulsar esta opción
-          },
-        ),
-        ListTile(
-          leading: Icon(Icons.local_hospital),
-          title: Text('Veterinarios cercanos'),
-          onTap: () {
-            // Acción al pulsar esta opción
-          },
-        ),
-        ListTile(
-          leading: Icon(Icons.money),
-          title: Text('Donaciones'),
           onTap: () {
             // Acción al pulsar esta opción
           },
