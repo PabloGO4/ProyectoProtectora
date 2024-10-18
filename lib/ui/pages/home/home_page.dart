@@ -18,14 +18,14 @@ class HomePage extends StatelessWidget {
       drawer: buildDrawer(context), // Drawer importado desde home_widgets.dart
       body: ListView(
         children: [
-          buildAlternatingMenuItem(context, "Adoptar animales", 'assets/images/adoptar_animales.jpg', 0),
-          buildAlternatingMenuItem(context, "Animales perdidos", 'assets/images/animales_perdidos.webp', 1),
-          buildAlternatingMenuItem(context, "Nuestros servicios", 'assets/images/nuestros_servicios.jpg', 2),
-          buildAlternatingMenuItem(context, "Contacto", 'assets/images/contacto.jpg', 3),
-          buildAlternatingMenuItem(context, "Veterinarios cercanos", 'assets/images/veterinarios.jpg', 4),
-          buildAlternatingMenuItem(context, "Donaciones", 'assets/images/donaciones.jpg', 5),
+          buildAlternatingMenuItem(context, "Adoptar animales", 'assets/images/adoptar_animales.webp', 0),
+          buildAlternatingMenuItem(context, "Animales perdidos", 'assets/images/animales_perdidos.webp', 1), // Corregido aquí
+          buildAlternatingMenuItem(context, "Nuestros servicios", 'assets/images/nuestros_servicios.webp', 2),
+          buildAlternatingMenuItem(context, "Colabora", 'assets/images/colabora.webp', 3),
+          buildAlternatingMenuItem(context, "Contacto", 'assets/images/colabora.webp', 4),
         ],
       ),
     );
   }
 }
+
