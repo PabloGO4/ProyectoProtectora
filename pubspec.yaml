@@ -61,6 +61,14 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/images/adoptar_animales.webp
+    - assets/images/animales_perdidos.webp
+    - assets/images/nuestros_servicios.webp
+    - assets/images/colabora.webp
+    - assets/images/contacto.webp
+
+    
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
