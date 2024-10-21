@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'perfil_animal_page.dart';
-
+import 'perfil_animal_page.dart'; // Importa la página de perfil del animal
 
 class AdoptarAnimalesPage extends StatelessWidget {
   final String nombreProtectora;
@@ -31,7 +30,8 @@ class AdoptarAnimalesPage extends StatelessWidget {
       "altura": "70 cm",
       "peso": "30 kg",
       "historia": "Max es un perro muy amigable y le encanta jugar con niños..."
-    },{
+    },
+    {
       "nombre": "Mía",
       "imagen": 'assets/images/Mia.png',
       "ubicacion": "Sevilla, España",
@@ -79,7 +79,6 @@ class AdoptarAnimalesPage extends StatelessWidget {
       "peso": "22 kg",
       "historia": "Oliver es un perro tranquilo que disfruta de largos paseos..."
     },
-    // Añadir más animales aquí si es necesario...
   ];
 
   @override
@@ -94,7 +93,7 @@ class AdoptarAnimalesPage extends StatelessWidget {
         backgroundColor: Color(0xFFD0A659),
         actions: [
           IconButton(
-            icon: Icon(Icons.filter_list, color: Colors.white),
+            icon: Icon(Icons.filter_list),
             onPressed: () {
               // Acción cuando se presiona el botón de filtro
               showFilterDialog(context);
@@ -123,9 +122,9 @@ class AdoptarAnimalesPage extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2, // Mostrar dos columnas
-                  crossAxisSpacing: 5, // Reducir el espacio entre columnas
-                  mainAxisSpacing: 5, // Reducir el espacio entre filas
-                  childAspectRatio: 0.9, // Ajustar la proporción para reducir la altura del espacio entre elementos
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  childAspectRatio: 0.75,
                 ),
                 itemCount: animales.length,
                 itemBuilder: (context, index) {
