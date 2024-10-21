@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class AdoptarAnimalesPage extends StatelessWidget {
+class AnimalesPerdidosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Adoptar animales'),
+        title: Text('Animales perdidos'),
         backgroundColor: Color(0xFFD3D3D3),
       ),
       body: Center(
         child: Text(
-          'Aquí encontrarás información sobre la adopción de animales.',
+          'Aquí puedes ver los animales que se han perdido.',
           style: TextStyle(fontSize: 18),
           textAlign: TextAlign.center,
         ),

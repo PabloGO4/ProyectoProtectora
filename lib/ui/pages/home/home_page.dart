@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
           buildAlternatingMenuItem(context, "Animales perdidos", 'assets/images/animales_perdidos.webp', 1), // Corregido aquí
           buildAlternatingMenuItem(context, "Nuestros servicios", 'assets/images/nuestros_servicios.webp', 2),
           buildAlternatingMenuItem(context, "Colabora", 'assets/images/colabora.webp', 3),
-          buildAlternatingMenuItem(context, "Contacto", 'assets/images/colabora.webp', 4),
+          buildAlternatingMenuItem(context, "Contacto", 'assets/images/contacto.webp', 4),
         ],
       ),
     );
