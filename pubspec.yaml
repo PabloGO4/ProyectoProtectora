@@ -67,7 +67,12 @@ flutter:
     - assets/images/nuestros_servicios.webp
     - assets/images/colabora.webp
     - assets/images/contacto.webp
-
+    - assets/images/Luna.png
+    - assets/images/Max.png
+    - assets/images/Mia.png
+    - assets/images/Oliver.png
+    - assets/images/Rocky.png
+    - assets/images/Simba.png
     
   # To add assets to your application, add an assets section, like this:
   # assets:
